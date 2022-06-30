@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Learning TypeScript</title>
   </head>
-  <body>
-    <h1>Learning Typescript</h1>
-    <script src="./index.ts"></script>
+  <body class="root">
+    <header class="header">
+      <h1 class="main-title">Playing with TypeScript</h1>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="inputs">
+          <input type="text" placeholder="Enter number 1" id="num1" />
+          <input type="text" placeholder="Enter number 2" id="num2" />
+          <button class="btn">Add Number</button>
+        </div>
+        <div class="result"><h3 class="result"></h3></div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Created by <a href="https://tiskae.netlify.app">Tiskae</a></p>
+    </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
